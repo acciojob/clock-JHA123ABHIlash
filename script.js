@@ -1,5 +1,5 @@
 //your JS code here. If required.
-let p=documet.querySelector('#timer');
+let p=document.querySelector('#timer');
 
 setInterval(function(){
 	let date=new Date();

@@ -4,5 +4,5 @@ let p=documet.querySelector('#timer');
 setInterval(function(){
 	let date=new Date();
 	
-	p.textContent=date.toLocalTimeString();
+	p.textContent=date.toLocaleString();
 },1000);
